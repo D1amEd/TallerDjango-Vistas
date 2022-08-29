@@ -18,3 +18,5 @@ Example:
 ```bash
 pipenv run python manage.py makemigrations 
 ```
+
+image.png
