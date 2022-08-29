@@ -19,4 +19,4 @@ Example:
 pipenv run python manage.py makemigrations 
 ```
 
-![](image.png)
+![](https://cdn.discordapp.com/attachments/768233621462712350/1013666110270353478/unknown.png)
