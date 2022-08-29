@@ -12,12 +12,13 @@ def get_measurement(mea_pk):
     return measurement
 
 def update_measurement(mea_pk, new_var):
+    date = datetime.strptime(new_var["dateTime"], "%d/%m/%Y %H:%M:%S")
     measurement = get_measurement(mea_pk)
     measurement.variable=Variable.objects.get(pk=new_var["variable"])
     measurement.value = new_var["value"]
     measurement.unit = new_var["unit"]
     measurement.place = new_var["place"]
-    measurement.dateTime = new_var["dateTime"]
+    measurement.dateTime = date
     measurement.save()
     return measurement
 

@@ -20,3 +20,7 @@ pipenv run python manage.py makemigrations
 ```
 
 ![](https://cdn.discordapp.com/attachments/768233621462712350/1013666110270353478/unknown.png)
+![](https://cdn.discordapp.com/attachments/768233621462712350/1013666552140267602/unknown.png)
+![](https://cdn.discordapp.com/attachments/768233621462712350/1013666630858977360/unknown.png)
+![](https://cdn.discordapp.com/attachments/768233621462712350/1013667284906156052/unknown.png)
+![](https://cdn.discordapp.com/attachments/768233621462712350/1013667406389977108/unknown.png)
