@@ -19,4 +19,4 @@ Example:
 pipenv run python manage.py makemigrations 
 ```
 
-image.png
+![](image.png)
