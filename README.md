@@ -18,9 +18,14 @@ Example:
 ```bash
 pipenv run python manage.py makemigrations 
 ```
-
+# h1 Consultas nuevas
+## h2 Creacion de un Measurement
 ![](https://cdn.discordapp.com/attachments/768233621462712350/1013666110270353478/unknown.png)
+## h2 Obtencion de un measurement por id
 ![](https://cdn.discordapp.com/attachments/768233621462712350/1013666552140267602/unknown.png)
+## h2 Obtencion de todos los measurements
 ![](https://cdn.discordapp.com/attachments/768233621462712350/1013666630858977360/unknown.png)
+## h2 Actualizar un measurement por id
 ![](https://cdn.discordapp.com/attachments/768233621462712350/1013667284906156052/unknown.png)
+## h2 Eliminar un measurement
 ![](https://cdn.discordapp.com/attachments/768233621462712350/1013667406389977108/unknown.png)
