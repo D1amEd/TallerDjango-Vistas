@@ -81,7 +81,7 @@ DATABASES = {
         'NAME' : 'BD1',
         'USER': 'postgres',
         'PASSWORD':'12345678',
-        'HOST': 'database-1.chxszbgsqo7x.us-east-1.rds.amazonaws.com',
+        'HOST': 'basedatos.chxszbgsqo7x.us-east-1.rds.amazonaws.com',
         'PORT': '5432'
      }
 }

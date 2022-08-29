@@ -34,4 +34,8 @@ def measurement_view(request, pk):
         measurement = serializers.serialize('json', [measurement_dto,])
         return HttpResponse(measurement, 'application/json')
 
-    
+    if request.method == 'DELETE':
+        measurement_dto = ms.get_measurement(pk)#obtiene el valor antes de eliminarlo
+        ms.delete_measurement(pk)#Lo elimina
+        measurement = serializers.serialize('json', [measurement_dto,])
+        return HttpResponse(measurement, 'application/json')
